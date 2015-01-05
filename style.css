@@ -1,0 +1,224 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+  background: url('images/light_wool.png');
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  color: #535354;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+a, a:visited {
+	color: #535354;
+	text-decoration: none;
+	// font-weight: bold;
+}
+
+a:hover {
+	//font-weight: bold;
+
+}
+
+.home {
+
+  background: url('images/homecaity2.jpg') no-repeat center center;
+  background-size: cover;
+  height: 600px;
+}
+
+.home h1{
+	font-size: 100px;
+	font-weight: bold;
+	color: #fffd2f;
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.home p {
+	font-size: 28px;
+}
+
+h2 {
+	font-size: 35px;
+	font-weight: bold;
+	padding-left: 30px;
+}
+.content p {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-size: 22px;
+	padding-bottom: 30px;
+}
+
+.contact {
+	width: 310px;
+	margin: 0 auto;
+}
+
+/* PROJECTS */
+
+.projects {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+    .projects h2 {
+        padding: 30px 0 0 0;
+        margin-bottom: 30px;
+    }
+    .projects span {
+        display:block;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.4em;
+        color: #333;
+    }
+
+    .projects p {
+        line-height: 1.2em;
+        color: #999;
+
+    }
+
+
+.list {
+    padding: 40px 0;
+    text-align: center;
+}
+
+    .lightgrey {
+        background: #f8f8f8;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        box-shadow: inset 0 3px 4px rgba(0, 0, 0, .1)
+    }
+
+    .list img {
+        width: 300px;
+        height: 300px;
+        border-radius: 7%;
+        margin: 0 0 10px;
+    }
+@media screen and (min-width: 600px) {
+    h1 {
+        float:left;
+        /*padding-left: 20px;*/
+    }
+    .home {
+        background: url('images/homecaity.jpg') no-repeat center center;
+        background-size: cover;
+        height: 853px;
+    }
+
+    .home h1 {
+        font-size: 164px;
+        padding-left: 60px;
+        padding-top: 60px;
+
+
+    }
+    .nav {
+        float: right;
+        margin: 0;
+    }
+
+    .nav li {
+        display: inline;
+        float: left;
+        padding: 20px;
+    }
+
+    h2 {
+        font-size: 45px;
+        font-weight: bold;
+        padding-left: 60px;
+    }
+    .content p {
+        padding-left: 60px;
+        padding-right: 60px;
+        font-size: 22px;
+        padding-bottom: 30px;
+    }
+
+    .lightgrey {
+        background: #f8f8f8;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        box-shadow: inset 0 3px 4px rgba(0, 0, 0, .1)
+    }
+
+    .projects {
+/*        background:lightblue;
+*/    }
+
+    .list {
+        display: inline-block;
+        width: 30%;
+        padding-right: 2%;
+    }
+
+        .list.lightgrey {
+            background: #fff;
+            box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+            border: 0;
+        }
+
+        .list img {
+            width: 80%;
+            height: 80%;
+        }
+}
+
+
+
